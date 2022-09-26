@@ -24,7 +24,7 @@ const navData = [
   },
   {
     name: "View our smart contract code",
-    href:"https://mumbai.polygonscan.com/address/0x20f4b22F57f0baB5D8a82EE3525aD039971695D6#code",
+    href:"https://mumbai.polygonscan.com/address/0x827821E568bF564A96233724B088db966EDF90eA#code",
   },
 ];
 
