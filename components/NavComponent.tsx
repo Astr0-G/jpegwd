@@ -22,6 +22,10 @@ const navData = [
     name: "Back",
     href: "/",
   },
+  {
+    name: "View our smart contract code",
+    href:"https://mumbai.polygonscan.com/address/0x20f4b22F57f0baB5D8a82EE3525aD039971695D6#code",
+  },
 ];
 
 export default function NavComponent() {
@@ -34,7 +38,7 @@ export default function NavComponent() {
   return (
     
     
-    <div className="container mx-auto max-w-6xl p-8 2xl:px-0">
+    <div className="container mx-auto max-w-10xl p-8 2xl:px-0">
       <div className="relative flex flex-col items-center justify-center">
       <ConnectButton moralisAuth={false} />
       </div>
