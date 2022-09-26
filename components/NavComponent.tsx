@@ -39,7 +39,7 @@ export default function NavComponent() {
     
     
     <div className="container mx-auto max-w-10xl p-8 2xl:px-0">
-      <div className="relative flex flex-col items-center justify-center">
+      <div className="absolute top-10 right-10 ...">
       <ConnectButton moralisAuth={false} />
       </div>
     <div className="sticky top-0 z-10 navv  text-xl font-bold drop-shadow-xl flex-none bg-green-500 h-20 mx-10 rounded-xl max-w-7xl px-7 sm:px-8 transition-colors duration-500  flex-wrap justify-around items-center px-4 ">

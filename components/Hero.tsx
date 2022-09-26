@@ -1,5 +1,19 @@
 import React from "react";
 import Image from 'next/image'
+import nftaddress from "../constants/ERC721address.json"
+import nftAbi from "../constants/ERC721abi.json"
+import { useWeb3Contract, useMoralis } from "react-moralis"
+
+// const { runContractFunction: buyItem } = useWeb3Contract({
+//   abi: nftAbi,
+//   contractAddress: marketplaceAddress,
+//   functionName: "buyItem",
+//   msgValue: price,
+//   params: {
+//       nftAddress: nftAddress,
+//       tokenId: tokenId,
+//   },
+// })
 
 export default function HeroSection() {
   return (
@@ -17,6 +31,7 @@ export default function HeroSection() {
                 <p className="mb-7">
                   Earn, hedge and speculate on your favorite NFTs
                 </p>
+                <button className="border">mint sample nft</button>
                 
                 
               
