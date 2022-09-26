@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Helpers/contract.js", "components/Helpers/contract.js", "components/Helpers/contract.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Helpers/contract.js", "components/Helpers/contract.js", "components/Helpers/contract.js", "components/NavComponent.jsx"],
   "exclude": ["node_modules"]
 }
