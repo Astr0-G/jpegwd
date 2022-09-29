@@ -122,7 +122,7 @@ export default function HeroSection() {
 
                  <div className="font-bold mt-3 ">
                 <Image
-                 src="/Superfluid.jpg"
+                 src="/Superfluid.png"
                  alt="Superfluid Logo"
                  width={70}
                  height={70}
@@ -132,7 +132,7 @@ export default function HeroSection() {
 
                  <div className="">
                 <Image
-                 src="/tellor.svg"
+                 src="/tellor.png"
                  alt="Tellor Logo"
                  width={70}
                  height={70}
